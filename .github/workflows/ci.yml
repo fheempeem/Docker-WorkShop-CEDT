@@ -10,6 +10,7 @@ env:
   # After step-6d, your Docker Hub username will live in a secret.
   # For local tagging below we reference ${{ secrets.DOCKERHUB_USERNAME }}.
   # just for the record that this is my file Piyawat Jaikla the one and only me.
+  # Why you do this github I hate you so much.
 jobs:
   build-scan-push:
     runs-on: ubuntu-latest
